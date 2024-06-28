@@ -1,4 +1,4 @@
-// Compile on GPU with: nvcc -x cu -lcublasLt -arch=compute_89 -o sk_5 sk_5.cpp
+// Compile on GPU with: nvcc -x cu -lcublasLt -arch=[RELEVANT COMPUTE ARCHITECTURE, EX:compute_89] -o sk_5 sk_5.cpp
 
 #include <memory>
 #include <exception>
